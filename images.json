@@ -1,0 +1,55 @@
+{
+    "Records": [
+        {
+            "eventVersion": "2.1",
+            "eventSource": "aws:s3",
+            "awsRegion": "us-east-2",
+            "eventTime": "2021-05-11T21:42:40.410Z",
+            "eventName": "ObjectCreated:Put",
+            "userIdentity": {
+                "principalId": "A23LEJEM265GUG"
+            },
+            "requestParameters": {
+                "sourceIPAddress": "97.99.25.148"
+            },
+            "responseElements": {
+                "x-amz-request-id": "QQQYGBBGB85MPB7N",
+                "x-amz-id-2": "TgHrNv8Kx4rsr3QP2zywJ9lEyiWc4loWT8tMv+U4mlk6Dgt92/O/0Ofv8ctYZb/NdNUDfYNZ1qAg0gBvorZjmw1tMze0l76u"
+            },
+            "s3": {
+                "s3SchemaVersion": "1.0",
+                "configurationId": "d8cc80a6-48b7-4c61-872f-27c1ca5ad94a",
+                "bucket": {
+                    "name": "jarrellimagebucket2",
+                    "ownerIdentity": {
+                        "principalId": "A23LEJEM265GUG"
+                    },
+                    "arn": "arn:aws:s3:::jarrellimagebucket2"
+                },
+                "object": {
+                    "key": "codefellows3.png",
+                    "size": 7627,
+                    "eTag": "4f4def2509aebff2c7457df02a5f0a7f",
+                    "sequencer": "00609AFA51C0F8C813"
+                }
+            }
+        }
+    ]
+}
+ [
+    {
+        "name": "codefellows.png",
+        "size": 7627,
+        "tag": "\"4f4def2509aebff2c7457df02a5f0a7f\""
+    },
+    {
+        "name": "codefellows2.png",
+        "size": 7627,
+        "tag": "\"4f4def2509aebff2c7457df02a5f0a7f\""
+    },
+    {
+        "name": "codefellows3.png",
+        "size": 7627,
+        "tag": "\"4f4def2509aebff2c7457df02a5f0a7f\""
+    }
+]
